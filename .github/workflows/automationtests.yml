@@ -1,8 +1,11 @@
 name: Cypress Tests
 
-on: push
+on: [push]
 
 jobs:
+  install:
+    runs-on: ubuntu-latest
+      
   cypress-run:
     runs-on: ubuntu-22.04
     steps:
@@ -14,7 +17,5 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           build: npm run build
-          start: npx cypress open
+          start: npm start
           browser: chrome
-
-          
