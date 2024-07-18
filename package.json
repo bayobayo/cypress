@@ -1,0 +1,19 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "adebayo",
+  "license": "ISC",
+  "description": "test automation",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bayobayo/cypress.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bayobayo/cypress/issues"
+  },
+  "homepage": "https://github.com/bayobayo/cypress#readme"
+}
