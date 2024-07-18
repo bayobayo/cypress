@@ -13,7 +13,7 @@ class loginPage {
     }
 
     get loginButton() {
-        return cy.get('[type=button]');
+        return cy.get('[id=loginButton]');
     }
 
     get loginStatusMessage() {
