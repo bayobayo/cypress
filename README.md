@@ -1,7 +1,7 @@
 # QA Prescreening Exercise
 
 ## Library used
-[Cypress v.13.13.1](https://www.npm.org/cypress)
+[Cypress v.13.13.1](https://www.npmjs.com/package/cypress)
 
 ## Setup Guide
 - [ ] Clone repository and navigate to the repository
